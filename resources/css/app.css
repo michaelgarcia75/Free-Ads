@@ -1,0 +1,60 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.search-input {
+    border : 1px solid black;
+    border-radius : 3px;
+}
+.py-5 {
+    margin-top: 100px;
+}
+
+.col-md-3 {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: space-around;
+}
+
+.card {
+
+    height: 400px;
+    width: 300px;
+    margin: 20px 20px;
+
+    border: 1px solid black;
+
+    border-radius: 5px;
+
+}
+
+.card-body h1 {
+    font-size: 20px;
+    font-weight: 300;
+    font-color: black;
+    border: 1px solide black;
+
+}
+
+.card-body {
+    display: block;
+    justify-content: center;
+    height: 80px;
+    width: 300px;
+    border: 1px solide black;
+
+}
+
+.image1 {
+    height: 300px;
+    width: 300px;
+    border: 1px solide black;
+
+}
